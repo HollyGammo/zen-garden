@@ -20,6 +20,19 @@ body {
   padding: 1em;
 }
 
+header > h1 {
+  background-color: $accent4;
+  font-family: $fonts-body;
+  font-weight: 500;
+  font-size: 2em;
+  padding: 0.5em 1em;
+  margin-bottom: 1em ;
+}
+
+main > p{
+  color: $text-light;
+}
+
 section {
   background-color: white;
   padding: 1em;
@@ -50,6 +63,12 @@ section {
 .accent2 {
   background-color: $accent2;
 }
+.accent3 {
+  background-color: $accent3;
+}
+.accent4 {
+  background-color: $accent4;
+}
 .text-dark {
   background-color: $text-dark;
 }
@@ -57,10 +76,4 @@ section {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em;
-}
-.uppercase {
-  @include atoms.uppercase;
-}
-.uppercase-light {
-  @include atoms.uppercase($text-light);
 }

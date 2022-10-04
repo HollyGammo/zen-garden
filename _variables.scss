@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Cabin:wght@400;500;600&family=Fredericka+the+Great&display=swap');
 
-$fonts-headline: 'Fredericka the Great', Arial, cursive;
-$fonts-subhead: 'Cabin Sketch', Arial, cursive;
-$fonts-body:  'Cabin', Arial, sans-serif;
+/* Fonts */
+$fonts-headline: 'Fredericka the Great', Arial, cursive;  /*h1*/
+$fonts-subhead: 'Cabin Sketch', Arial, cursive;  /*h2 & h3*/
+$fonts-body:  'Cabin', Arial, sans-serif;  /*p*/
+/* Colors */
 $background-color: #05173d;
-$primary: #faa624;
-$accent1: #ffe35c;
+$primary: #05173d; 
+$accent1: #1a68ad;
 $accent2: #7afacc;
-$accent3: #1a68ad;
-$grey-sidebar: rgba(51, 55, 69, 0.9);
+$accent3: #ffe35c;
+$accent4: #faa624;
+/*$grey-sidebar: rgba(51, 55, 69, 0.9);   ????????*/
+/* Font Colors */
 $text-dark: #05173d;
 $text-light: #fff;
 

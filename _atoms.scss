@@ -12,12 +12,6 @@
   flex-flow: $direction $wrap;
 }
 
-@mixin uppercase($color: $text-dark) {
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: $color;
-}
 @mixin divider($color: $accent1) {
   border-top: 1px solid $color;
   margin-top: 1em;
