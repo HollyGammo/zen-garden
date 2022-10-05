@@ -1,21 +1,21 @@
 /*
 Error: Invalid CSS after "  @include atoms": expected "}", was ".set-flex();"
-        on line 29 of style-pattern.scss
+        on line 42 of style-pattern.scss
 
-24:   background-color: white;
-25:   padding: 1em;
-26:   margin: 1em;
-27: }
-28: .colors {
-29:   @include atoms.set-flex();
-30:   > h3 {
-31:     width: 100%;
-32:     flex: 1 0 100%;
-33:   }
-34:   > figure {
+37:   background-color: white;
+38:   padding: 1em;
+39:   margin: 1em;
+40: }
+41: .colors {
+42:   @include atoms.set-flex();
+43:   > h3 {
+44:     width: 100%;
+45:     flex: 1 0 100%;
+46:   }
+47:   > figure {
 
 Backtrace:
-style-pattern.scss:29
+style-pattern.scss:42
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
@@ -39,4 +39,4 @@ C:/Ruby31-x64/bin/sass:32:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"  @include atoms\": expected \"}\", was \".set-flex();\"\A         on line 29 of style-pattern.scss\A \A 24:   background-color: white;\A 25:   padding: 1em;\A 26:   margin: 1em;\A 27: }\A 28: .colors {\A 29:   @include atoms.set-flex();\A 30:   > h3 {\A 31:     width: 100%;\A 32:     flex: 1 0 100%;\A 33:   }\A 34:   > figure {"; }
+  content: "Error: Invalid CSS after \"  @include atoms\": expected \"}\", was \".set-flex();\"\A         on line 42 of style-pattern.scss\A \A 37:   background-color: white;\A 38:   padding: 1em;\A 39:   margin: 1em;\A 40: }\A 41: .colors {\A 42:   @include atoms.set-flex();\A 43:   > h3 {\A 44:     width: 100%;\A 45:     flex: 1 0 100%;\A 46:   }\A 47:   > figure {"; }

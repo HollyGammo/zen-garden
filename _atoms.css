@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$fonts-headline".
-        on line 30 of _atoms.scss
+        on line 24 of _atoms.scss
 
-25: }
-26: // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
-27: h2,
-28: h3,
-29: h4 {
-30:   font-family: $fonts-headline;
-31:   margin: 0;
-32: }
-33: h1 {
-34:   background: $accent1;
-35:   color: $text-light;
+19: }
+20: // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary
+21: h2,
+22: h3,
+23: h4 {
+24:   font-family: $fonts-headline;
+25:   margin: 0;
+26: }
+27: h1 {
+28:   background: $accent1;
+29:   color: $text-light;
 
 Backtrace:
-_atoms.scss:30
+_atoms.scss:24
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Ruby31-x64/lib/ruby/gems/3.1.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Ruby31-x64/bin/sass:32:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$fonts-headline\".\A         on line 30 of _atoms.scss\A \A 25: }\A 26: // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary\A 27: h2,\A 28: h3,\A 29: h4 {\A 30:   font-family: $fonts-headline;\A 31:   margin: 0;\A 32: }\A 33: h1 {\A 34:   background: $accent1;\A 35:   color: $text-light;"; }
+  content: "Error: Undefined variable: \"$fonts-headline\".\A         on line 24 of _atoms.scss\A \A 19: }\A 20: // these styles here should describe how the atoms (elements) should appear most of the time.  They can be overridden at the molecule (block) as necessary\A 21: h2,\A 22: h3,\A 23: h4 {\A 24:   font-family: $fonts-headline;\A 25:   margin: 0;\A 26: }\A 27: h1 {\A 28:   background: $accent1;\A 29:   color: $text-light;"; }
