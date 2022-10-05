@@ -1,5 +1,5 @@
 /*
-Error: Invalid CSS after "  @include atoms": expected "}", was ".set-flex();"
+Error: Invalid CSS after "  @include atoms": expected "}", was ".set-flex() {"
         on line 42 of style-pattern.scss
 
 37:   background-color: white;
@@ -7,7 +7,7 @@ Error: Invalid CSS after "  @include atoms": expected "}", was ".set-flex();"
 39:   margin: 1em;
 40: }
 41: .colors {
-42:   @include atoms.set-flex();
+42:   @include atoms.set-flex() {
 43:   > h3 {
 44:     width: 100%;
 45:     flex: 1 0 100%;
@@ -39,4 +39,4 @@ C:/Ruby31-x64/bin/sass:32:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"  @include atoms\": expected \"}\", was \".set-flex();\"\A         on line 42 of style-pattern.scss\A \A 37:   background-color: white;\A 38:   padding: 1em;\A 39:   margin: 1em;\A 40: }\A 41: .colors {\A 42:   @include atoms.set-flex();\A 43:   > h3 {\A 44:     width: 100%;\A 45:     flex: 1 0 100%;\A 46:   }\A 47:   > figure {"; }
+  content: "Error: Invalid CSS after \"  @include atoms\": expected \"}\", was \".set-flex() {\"\A         on line 42 of style-pattern.scss\A \A 37:   background-color: white;\A 38:   padding: 1em;\A 39:   margin: 1em;\A 40: }\A 41: .colors {\A 42:   @include atoms.set-flex() {\A 43:   > h3 {\A 44:     width: 100%;\A 45:     flex: 1 0 100%;\A 46:   }\A 47:   > figure {"; }
