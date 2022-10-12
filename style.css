@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Cabin:wght@400;500;600&family=Fredericka+the+Great&display=swap");
+/* Fonts */
+/*h1*/
+/*h2 & h3*/
+/*p*/
+/* Colors */
+/*$grey-sidebar: rgba(51, 55, 69, 0.9);   ????????*/
+/* Font Colors */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #05173d;
+  padding: 5%;
+}
+
+body {
+  font-family: "Cabin", Arial, sans-serif;
+  font-size: 85%;
+  color: #05173d;
+  background-color: #05173d;
+  margin: 0;
+  padding: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */
